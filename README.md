@@ -165,6 +165,8 @@ else{
 console.log(color);
 
 // Ternary Opeator
-
+let Age=19,Result;
+Result= Age>=18 ? "Adult" : "Not Adult"
+console.log(Result);
 
 
