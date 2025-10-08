@@ -113,4 +113,17 @@ let cond2 = x!=y;
 console.log("cond1 && cond2 = ",cond1 && cond2);
 console.log("cond1 || cond2 = ",cond1 || cond2);
 
+//Conditional Statements.
+let color;
+if (mode === "dark")
+{
+    color="black";
+}
+
+let age;
+if (age>=18)
+{
+  console.log("You can vote");
+}
+
 
