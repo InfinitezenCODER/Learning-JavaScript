@@ -120,7 +120,8 @@ if (mode === "dark")
     color="black";
 }
 
-// Eligible for Vote or not
+// Eligible for Vote or not.
+//If Statement
 let age;
 if (age>=18)
 {
@@ -128,6 +129,7 @@ if (age>=18)
 }
 
 // Even odd number .
+// If-Else Statement
 let num=5;
 if (num%2==0)
 {
@@ -138,7 +140,7 @@ else{
 }
 
 // Color according to mode
-
+// IF - else if Statement
 let mode="light";
 let  color;
 if (mode==="dark")
@@ -162,6 +164,7 @@ else{
 }
 console.log(color);
 
+// Ternary Opeator
 
 
 
