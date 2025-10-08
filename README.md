@@ -93,3 +93,16 @@ c-=5;
 console.log("c-=5 =", c);
 c**=2;
 console.log("c**=2",c);
+
+
+//Comparison Operators
+let c=7, d=8;
+console.log("c==d",c==d);
+console.log("c!=d",c!=d);
+console.log("c===d",c===d);
+console.log("c!==d",c!==d);
+let e="9";
+console.log("d===e",d===e);
+console.log("d==e",d==e);
+
+
