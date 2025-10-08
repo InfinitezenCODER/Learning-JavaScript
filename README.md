@@ -120,13 +120,14 @@ if (mode === "dark")
     color="black";
 }
 
+// Eligible for Vote or not
 let age;
 if (age>=18)
 {
   console.log("You can vote");
 }
 
-
+// Even odd number .
 let num=5;
 if (num%2==0)
 {
@@ -135,4 +136,32 @@ if (num%2==0)
 else{
     console.log("Odd number")
 }
+
+// Color according to mode
+
+let mode="light";
+let  color;
+if (mode==="dark")
+{
+    color = "blck";
+}
+else if(mode==="light")
+{
+    color="white";
+}
+else if(mode==="smoggy")
+{
+    color="grey";
+}
+else if(mode==="Foggy")
+{
+    color="light yellow";
+}
+else{
+    color="light green";
+}
+console.log(color);
+
+
+
 
