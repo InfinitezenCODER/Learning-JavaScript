@@ -169,5 +169,8 @@ let Age=19,Result;
 Result= Age>=18 ? "Adult" : "Not Adult"
 console.log(Result);
 
-
+//MDN DOCs.
+// https://developer.mozilla.org/en-US/docs/Glossary/JavaScript. - For JavaScript Documentation
+//To explore the documentation of all these things.
+//  Visit the MDN Web Docs website.
 
