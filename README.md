@@ -170,3 +170,4 @@ Result= Age>=18 ? "Adult" : "Not Adult"
 console.log(Result);
 
 
+
