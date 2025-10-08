@@ -105,4 +105,12 @@ let e="9";
 console.log("d===e",d===e);
 console.log("d==e",d==e);
 
+//Logical Operators
+let x=9 ;
+ y=10;
+let cond1 = x>y;
+let cond2 = x!=y;
+console.log("cond1 && cond2 = ",cond1 && cond2);
+console.log("cond1 || cond2 = ",cond1 || cond2);
+
 
