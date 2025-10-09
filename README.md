@@ -174,3 +174,14 @@ console.log(Result);
 //To explore the documentation of all these things.
 //  Visit the MDN Web Docs website.
 
+
+console.log("Starting Loops");
+
+let i=1;
+for(i=1;i<4;i++)
+{
+    console.log("I am going to nail it..\n")
+}
+
+
+
