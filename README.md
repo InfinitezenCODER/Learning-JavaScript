@@ -184,4 +184,13 @@ for(i=1;i<4;i++)
 }
 
 
+//While loop
+let j,sum;
+for(j=1,sum=0;j<=5;j++)
+{
+    sum=sum+j;
+    console.log("Total summation is : ",sum);
+}    
+console.log("The loop has ended");
+
 
