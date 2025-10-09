@@ -225,3 +225,14 @@ for(let val of nam)
 console.log("Lenghth=",lenghth);
 
 
+//for-in loop // Return keys.
+let student = {
+NAME: "Swastik",
+isPass: true,
+
+};
+
+for(let i in student){
+    console.log("key=",i);
+    console.log("key=",i,"value=",student[i]);
+}
