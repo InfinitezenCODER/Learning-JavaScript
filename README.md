@@ -183,8 +183,6 @@ for(i=1;i<4;i++)
     console.log("I am going to nail it..\n")
 }
 
-
-//While loop
 let j,sum;
 for(j=1,sum=0;j<=5;j++)
 {
@@ -192,5 +190,30 @@ for(j=1,sum=0;j<=5;j++)
     console.log("Total summation is : ",sum);
 }    
 console.log("The loop has ended");
+
+
+//While Loop
+let z=1;
+while(z<=3)
+{
+    console.log("z=",z);
+    z++;
+}
+
+let n=21;
+while(n<=20)
+{
+    console.log("n=",n);
+    n++;
+}
+
+//Do-while Loop
+let p=6;
+do{
+    console.log("p=",p);
+    p++;
+}while(p<=5);
+
+
 
 
