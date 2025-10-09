@@ -215,5 +215,13 @@ do{
 }while(p<=5);
 
 
+//for-of loop
+let nam="INFINITEZEN Coder",lenghth=0;
+for(let val of nam)
+{
+    console.log("letter=",val);
+    lenghth++;
+}
+console.log("Lenghth=",lenghth);
 
 
