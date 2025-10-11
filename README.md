@@ -251,6 +251,9 @@ console.log("Congratulations.You nailed it this Time.");
 
 
 //Strings
+//String Method
+//String method neever Changes The #original String..
+//String Method writting way = string name.method()
 let str1="Swastik";
 let str2="InfinitezenCODER";
 str1.length;
