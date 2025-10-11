@@ -312,6 +312,13 @@ let userNAME='@'+NAME+NAME.length;
 console.log(userNAME);
 
 
+//ARRAYS in JS.
+let marks=[78,87,97,79]; // ARRAY is special type of Object.
+console.log(marks);
+console.log("length="+marks.length);
+console.log(typeof marks);
+
+
 
 
 
