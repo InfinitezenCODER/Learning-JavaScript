@@ -286,6 +286,9 @@ Output=`The cost of ${obj.NamE} is rupees ${5+5}`;
  //str.toUpperCase()
  //str.toLowerCase()
  //str.trim()
+  //str.slice(start,end?) //end index is not included.
+ //str1.concat(str2)
+ //str.replace("","")
 let str5='  swastik patra  '
 console.log(str5.toUpperCase());
 console.log(str5.length);
