@@ -250,5 +250,14 @@ userNUM = prompt("Enter another Number:"); // prompt se jo bhi input,ata hai woh
 console.log("Congratulations.You nailed it this Time.");
 
 
+//Strings
+let str1="Swastik";
+let str2="InfinitezenCODER";
+str1.length;
+console.log(str1.length);
+str1[0];
+console.log("First letter of the string is :", str1[0]);
+
+
 
 
