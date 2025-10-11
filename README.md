@@ -23,8 +23,8 @@ Connect JS to HTML as HTML is already connected to Browser.
 
 First.js -
 
-console.log("This is my first  Javascript Program");
-let name="InfinitezenCODER";
+console.log("This is my first  Javascript Program line.");
+let name="InfinitezenCODER";//Always declare a variable using let.
 console.log(name);
 x= null;
 console.log(x);
