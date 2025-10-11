@@ -300,11 +300,13 @@ console.log(str5.slice(1,4));
 let str6='Virat  Kohli';
 console.log(str6[0]+str6[7]);
 let str7='\t RCB';
+let str8=269;
+console.log(str6.concat(str8));
 console.log(str6.concat(str7));
 console.log(str6.replace(" ","Anushka"));
+console.log(str6.charAt(3));
 
-
-//Practice Question.
+//Practice Question 2.
 //Generation of A username.
 let NAME=prompt("Enter Your Name , No spaces are allowed");
 console.log(NAME);
