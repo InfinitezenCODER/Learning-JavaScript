@@ -322,6 +322,12 @@ console.log("length="+marks.length);
 console.log(typeof marks);
 
 
+//For Loop in Array.
+let heros=["Ironman","Thor","Batman","BlackPanther","Superman"];
+for(let i=0;i<heros.length;i++)
+{
+    console.log(heros[i]);
+}
 
 
 
