@@ -271,6 +271,27 @@ console.log("The cost of ",obj.NamE,"is","Rupees",obj.price);//Writting the line
 let Output= `The cost of ${obj.NamE} is Rupees ${obj.price}`; //Writting the same line using Templet Literals.
 console.log(Output); // Printing the output.
 
+Output=`The cost of ${obj.NamE} is rupees ${5+5}`;
+ console.log(Output);
+ //Escape Characters.
+ let str3='Funda \t Tube';//12(space ya \t ya \n sab count hoga)
+ console.log("Funda \n Tube");
+ console.log("Funda\tTube");
+ console.log(str3.length);
+
+ //Built-in String Manipulation Methods
+ //str.toUpperCase()
+ //str.toLowerCase()
+ //str.trim()
+let str5='  swastik patra  '
+console.log(str5.toUpperCase());
+console.log(str5.length);
+console.log(str5);
+str5=str5.toUpperCase();
+console.log(str5);
+console.log(str5.trim());
+
+
 
 
 
