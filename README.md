@@ -303,6 +303,15 @@ console.log(str6.concat(str7));
 console.log(str6.replace(" ","Anushka"));
 
 
+//Practice Question.
+//Generation of A username.
+let NAME=prompt("Enter Your Name , No spaces are allowed");
+console.log(NAME);
+let ready=prompt("Congradulation your User Name is Ready");
+let userNAME='@'+NAME+NAME.length;
+console.log(userNAME);
+
+
 
 
 
