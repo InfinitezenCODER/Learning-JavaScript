@@ -247,7 +247,7 @@ while(userNUM!=gameNUM)
 userNUM = prompt("Enter another Number:"); // prompt se jo bhi input,ata hai woh string hota hai.So to check the equality of string we can not give '==='.
     }
 
-console.log("Congratulations.You nailed it this Time.")
+console.log("Congratulations.You nailed it this Time.");
 
 
 
