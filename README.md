@@ -260,7 +260,7 @@ console.log("First letter of the string is :", str1[0]);
 
 
 //Templet Literals
-// How to write - let Var='Text ${variable}';
+// How to write - let Var=`Text ${variable}`;
 let myName='Swastik Patra';
 let obj =
 {
@@ -268,7 +268,7 @@ let obj =
     price : 10,
 }
 console.log("The cost of ",obj.NamE,"is","Rupees",obj.price);//Writting the line in basic way.
-let Output= 'The cost of ${obj.NamE} is Rupees ${obj.price}' ; //Writting the same line using Templet Literals.
+let Output= `The cost of ${obj.NamE} is Rupees ${obj.price}`; //Writting the same line using Templet Literals.
 console.log(Output); // Printing the output.
 
 
