@@ -236,3 +236,19 @@ for(let i in student){
     console.log("key=",i);
     console.log("key=",i,"value=",student[i]);
 }
+
+//Designing a small luck based game using while loop.
+//Practice Qs2.
+let gameNUM=19;
+let userNUM=prompt("Guess the Game Number");
+while(userNUM!=gameNUM)
+    {
+   
+userNUM = prompt("Enter another Number:"); // prompt se jo bhi input,ata hai woh string hota hai.So to check the equality of string we can not give '==='.
+    }
+
+console.log("Congratulations.You nailed it this Time.")
+
+
+
+
