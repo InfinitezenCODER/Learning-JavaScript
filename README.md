@@ -296,7 +296,11 @@ console.log(str5);
 str5=str5.toUpperCase();
 console.log(str5);
 console.log(str5.trim());
-
+console.log(str5.slice(1,4));
+let str6='Virat\t  Kohli';
+let str7='\t RCB';
+console.log(str6.concat(str7));
+console.log(str6.replace(" ","Anushka"));
 
 
 
